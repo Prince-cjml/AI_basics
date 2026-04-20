@@ -1,0 +1,221 @@
+2026-04-21 00:35:08,323 Using device: cuda:0
+2026-04-21 00:35:08,324 Using optimizer: adam
+2026-04-21 00:35:16,167 Epoch [1/100] Step [100/391] Loss: 1.5751
+2026-04-21 00:35:23,311 Epoch [1/100] Step [200/391] Loss: 1.4197
+2026-04-21 00:35:30,425 Epoch [1/100] Step [300/391] Loss: 1.2638
+2026-04-21 00:35:37,091 Epoch 1 Train Loss: 1.5221 Acc: 0.4335
+2026-04-21 00:35:38,737 Epoch 1 Test Loss: 1.3837 Acc: 0.4973
+2026-04-21 00:35:38,820 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:35:46,198 Epoch [2/100] Step [100/391] Loss: 1.1016
+2026-04-21 00:35:53,334 Epoch [2/100] Step [200/391] Loss: 1.0314
+2026-04-21 00:36:00,476 Epoch [2/100] Step [300/391] Loss: 0.9724
+2026-04-21 00:36:06,996 Epoch 2 Train Loss: 1.0738 Acc: 0.6128
+2026-04-21 00:36:08,638 Epoch 2 Test Loss: 1.0510 Acc: 0.6192
+2026-04-21 00:36:08,736 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:36:16,145 Epoch [3/100] Step [100/391] Loss: 0.9909
+2026-04-21 00:36:23,335 Epoch [3/100] Step [200/391] Loss: 0.9867
+2026-04-21 00:36:30,514 Epoch [3/100] Step [300/391] Loss: 1.0667
+2026-04-21 00:36:37,080 Epoch 3 Train Loss: 0.8961 Acc: 0.6825
+2026-04-21 00:36:38,696 Epoch 3 Test Loss: 0.8175 Acc: 0.7119
+2026-04-21 00:36:38,791 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:36:46,310 Epoch [4/100] Step [100/391] Loss: 0.7923
+2026-04-21 00:36:53,517 Epoch [4/100] Step [200/391] Loss: 0.7535
+2026-04-21 00:37:00,723 Epoch [4/100] Step [300/391] Loss: 0.5296
+2026-04-21 00:37:07,299 Epoch 4 Train Loss: 0.7771 Acc: 0.7274
+2026-04-21 00:37:08,956 Epoch 4 Test Loss: 0.7144 Acc: 0.7495
+2026-04-21 00:37:09,052 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:37:16,555 Epoch [5/100] Step [100/391] Loss: 0.6280
+2026-04-21 00:37:23,804 Epoch [5/100] Step [200/391] Loss: 0.7231
+2026-04-21 00:37:31,050 Epoch [5/100] Step [300/391] Loss: 0.7403
+2026-04-21 00:37:37,669 Epoch 5 Train Loss: 0.6961 Acc: 0.7592
+2026-04-21 00:37:39,330 Epoch 5 Test Loss: 0.8604 Acc: 0.6939
+2026-04-21 00:37:46,912 Epoch [6/100] Step [100/391] Loss: 0.6377
+2026-04-21 00:37:54,157 Epoch [6/100] Step [200/391] Loss: 0.6238
+2026-04-21 00:38:01,413 Epoch [6/100] Step [300/391] Loss: 0.7313
+2026-04-21 00:38:08,018 Epoch 6 Train Loss: 0.6404 Acc: 0.7789
+2026-04-21 00:38:09,663 Epoch 6 Test Loss: 0.6055 Acc: 0.7883
+2026-04-21 00:38:09,762 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:38:17,260 Epoch [7/100] Step [100/391] Loss: 0.5055
+2026-04-21 00:38:24,512 Epoch [7/100] Step [200/391] Loss: 0.5440
+2026-04-21 00:38:31,763 Epoch [7/100] Step [300/391] Loss: 0.6932
+2026-04-21 00:38:38,370 Epoch 7 Train Loss: 0.5870 Acc: 0.7973
+2026-04-21 00:38:40,024 Epoch 7 Test Loss: 0.6583 Acc: 0.7756
+2026-04-21 00:38:47,601 Epoch [8/100] Step [100/391] Loss: 0.5671
+2026-04-21 00:38:54,852 Epoch [8/100] Step [200/391] Loss: 0.6355
+2026-04-21 00:39:02,112 Epoch [8/100] Step [300/391] Loss: 0.7085
+2026-04-21 00:39:08,712 Epoch 8 Train Loss: 0.5513 Acc: 0.8086
+2026-04-21 00:39:10,367 Epoch 8 Test Loss: 0.5755 Acc: 0.8000
+2026-04-21 00:39:10,462 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:39:18,078 Epoch [9/100] Step [100/391] Loss: 0.5274
+2026-04-21 00:39:25,327 Epoch [9/100] Step [200/391] Loss: 0.4580
+2026-04-21 00:39:32,577 Epoch [9/100] Step [300/391] Loss: 0.4335
+2026-04-21 00:39:39,188 Epoch 9 Train Loss: 0.5234 Acc: 0.8181
+2026-04-21 00:39:40,848 Epoch 9 Test Loss: 0.5922 Acc: 0.7966
+2026-04-21 00:39:48,419 Epoch [10/100] Step [100/391] Loss: 0.4477
+2026-04-21 00:39:55,667 Epoch [10/100] Step [200/391] Loss: 0.4317
+2026-04-21 00:40:02,915 Epoch [10/100] Step [300/391] Loss: 0.6441
+2026-04-21 00:40:09,520 Epoch 10 Train Loss: 0.5012 Acc: 0.8264
+2026-04-21 00:40:11,189 Epoch 10 Test Loss: 0.5444 Acc: 0.8124
+2026-04-21 00:40:11,283 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:40:18,775 Epoch [11/100] Step [100/391] Loss: 0.3971
+2026-04-21 00:40:26,026 Epoch [11/100] Step [200/391] Loss: 0.5460
+2026-04-21 00:40:33,314 Epoch [11/100] Step [300/391] Loss: 0.4457
+2026-04-21 00:40:39,902 Epoch 11 Train Loss: 0.4832 Acc: 0.8327
+2026-04-21 00:40:41,526 Epoch 11 Test Loss: 0.5431 Acc: 0.8154
+2026-04-21 00:40:41,622 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:40:49,164 Epoch [12/100] Step [100/391] Loss: 0.4582
+2026-04-21 00:40:56,484 Epoch [12/100] Step [200/391] Loss: 0.3205
+2026-04-21 00:41:03,751 Epoch [12/100] Step [300/391] Loss: 0.4742
+2026-04-21 00:41:10,388 Epoch 12 Train Loss: 0.4589 Acc: 0.8425
+2026-04-21 00:41:12,059 Epoch 12 Test Loss: 0.4770 Acc: 0.8373
+2026-04-21 00:41:12,155 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:41:19,663 Epoch [13/100] Step [100/391] Loss: 0.3593
+2026-04-21 00:41:26,908 Epoch [13/100] Step [200/391] Loss: 0.5641
+2026-04-21 00:41:34,151 Epoch [13/100] Step [300/391] Loss: 0.3462
+2026-04-21 00:41:40,757 Epoch 13 Train Loss: 0.4452 Acc: 0.8467
+2026-04-21 00:41:42,431 Epoch 13 Test Loss: 0.4744 Acc: 0.8399
+2026-04-21 00:41:42,530 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:41:50,036 Epoch [14/100] Step [100/391] Loss: 0.4902
+2026-04-21 00:41:57,293 Epoch [14/100] Step [200/391] Loss: 0.3937
+2026-04-21 00:42:04,543 Epoch [14/100] Step [300/391] Loss: 0.4315
+2026-04-21 00:42:11,144 Epoch 14 Train Loss: 0.4266 Acc: 0.8530
+2026-04-21 00:42:12,817 Epoch 14 Test Loss: 0.4608 Acc: 0.8424
+2026-04-21 00:42:12,918 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:42:20,417 Epoch [15/100] Step [100/391] Loss: 0.3829
+2026-04-21 00:42:27,662 Epoch [15/100] Step [200/391] Loss: 0.3907
+2026-04-21 00:42:34,912 Epoch [15/100] Step [300/391] Loss: 0.3858
+2026-04-21 00:42:41,512 Epoch 15 Train Loss: 0.4092 Acc: 0.8585
+2026-04-21 00:42:43,174 Epoch 15 Test Loss: 0.4463 Acc: 0.8493
+2026-04-21 00:42:43,279 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:42:50,798 Epoch [16/100] Step [100/391] Loss: 0.4801
+2026-04-21 00:42:58,051 Epoch [16/100] Step [200/391] Loss: 0.4895
+2026-04-21 00:43:05,293 Epoch [16/100] Step [300/391] Loss: 0.4669
+2026-04-21 00:43:11,901 Epoch 16 Train Loss: 0.4028 Acc: 0.8611
+2026-04-21 00:43:13,557 Epoch 16 Test Loss: 0.4578 Acc: 0.8462
+2026-04-21 00:43:21,118 Epoch [17/100] Step [100/391] Loss: 0.2326
+2026-04-21 00:43:28,357 Epoch [17/100] Step [200/391] Loss: 0.4959
+2026-04-21 00:43:35,600 Epoch [17/100] Step [300/391] Loss: 0.3880
+2026-04-21 00:43:42,199 Epoch 17 Train Loss: 0.3945 Acc: 0.8635
+2026-04-21 00:43:43,869 Epoch 17 Test Loss: 0.4717 Acc: 0.8368
+2026-04-21 00:43:51,435 Epoch [18/100] Step [100/391] Loss: 0.4465
+2026-04-21 00:43:58,681 Epoch [18/100] Step [200/391] Loss: 0.3682
+2026-04-21 00:44:05,940 Epoch [18/100] Step [300/391] Loss: 0.3091
+2026-04-21 00:44:12,531 Epoch 18 Train Loss: 0.3795 Acc: 0.8704
+2026-04-21 00:44:14,205 Epoch 18 Test Loss: 0.4345 Acc: 0.8495
+2026-04-21 00:44:14,297 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:44:21,794 Epoch [19/100] Step [100/391] Loss: 0.4928
+2026-04-21 00:44:29,040 Epoch [19/100] Step [200/391] Loss: 0.5161
+2026-04-21 00:44:36,280 Epoch [19/100] Step [300/391] Loss: 0.5110
+2026-04-21 00:44:42,880 Epoch 19 Train Loss: 0.3716 Acc: 0.8717
+2026-04-21 00:44:44,549 Epoch 19 Test Loss: 0.4405 Acc: 0.8499
+2026-04-21 00:44:44,650 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:44:52,157 Epoch [20/100] Step [100/391] Loss: 0.2657
+2026-04-21 00:44:59,406 Epoch [20/100] Step [200/391] Loss: 0.3721
+2026-04-21 00:45:06,645 Epoch [20/100] Step [300/391] Loss: 0.3895
+2026-04-21 00:45:13,243 Epoch 20 Train Loss: 0.3683 Acc: 0.8735
+2026-04-21 00:45:14,904 Epoch 20 Test Loss: 0.4412 Acc: 0.8483
+2026-04-21 00:45:22,473 Epoch [21/100] Step [100/391] Loss: 0.2948
+2026-04-21 00:45:29,721 Epoch [21/100] Step [200/391] Loss: 0.3759
+2026-04-21 00:45:36,970 Epoch [21/100] Step [300/391] Loss: 0.4685
+2026-04-21 00:45:43,573 Epoch 21 Train Loss: 0.3567 Acc: 0.8772
+2026-04-21 00:45:45,225 Epoch 21 Test Loss: 0.4239 Acc: 0.8560
+2026-04-21 00:45:45,323 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:45:52,976 Epoch [22/100] Step [100/391] Loss: 0.2939
+2026-04-21 00:46:00,225 Epoch [22/100] Step [200/391] Loss: 0.3297
+2026-04-21 00:46:07,468 Epoch [22/100] Step [300/391] Loss: 0.3928
+2026-04-21 00:46:14,085 Epoch 22 Train Loss: 0.3419 Acc: 0.8823
+2026-04-21 00:46:15,760 Epoch 22 Test Loss: 0.4013 Acc: 0.8635
+2026-04-21 00:46:15,861 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:46:23,343 Epoch [23/100] Step [100/391] Loss: 0.4581
+2026-04-21 00:46:30,560 Epoch [23/100] Step [200/391] Loss: 0.3073
+2026-04-21 00:46:37,782 Epoch [23/100] Step [300/391] Loss: 0.3402
+2026-04-21 00:46:44,378 Epoch 23 Train Loss: 0.3332 Acc: 0.8851
+2026-04-21 00:46:46,059 Epoch 23 Test Loss: 0.3990 Acc: 0.8620
+2026-04-21 00:46:53,618 Epoch [24/100] Step [100/391] Loss: 0.3727
+2026-04-21 00:47:00,875 Epoch [24/100] Step [200/391] Loss: 0.4139
+2026-04-21 00:47:08,123 Epoch [24/100] Step [300/391] Loss: 0.2986
+2026-04-21 00:47:14,721 Epoch 24 Train Loss: 0.3314 Acc: 0.8855
+2026-04-21 00:47:16,380 Epoch 24 Test Loss: 0.4157 Acc: 0.8586
+2026-04-21 00:47:23,946 Epoch [25/100] Step [100/391] Loss: 0.3117
+2026-04-21 00:47:31,188 Epoch [25/100] Step [200/391] Loss: 0.3491
+2026-04-21 00:47:38,489 Epoch [25/100] Step [300/391] Loss: 0.2984
+2026-04-21 00:47:45,124 Epoch 25 Train Loss: 0.3243 Acc: 0.8885
+2026-04-21 00:47:46,800 Epoch 25 Test Loss: 0.4276 Acc: 0.8546
+2026-04-21 00:47:54,370 Epoch [26/100] Step [100/391] Loss: 0.2148
+2026-04-21 00:48:01,628 Epoch [26/100] Step [200/391] Loss: 0.3416
+2026-04-21 00:48:08,889 Epoch [26/100] Step [300/391] Loss: 0.3931
+2026-04-21 00:48:15,485 Epoch 26 Train Loss: 0.3157 Acc: 0.8907
+2026-04-21 00:48:17,137 Epoch 26 Test Loss: 0.3888 Acc: 0.8688
+2026-04-21 00:48:17,239 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:48:24,743 Epoch [27/100] Step [100/391] Loss: 0.3485
+2026-04-21 00:48:31,999 Epoch [27/100] Step [200/391] Loss: 0.2389
+2026-04-21 00:48:39,253 Epoch [27/100] Step [300/391] Loss: 0.2339
+2026-04-21 00:48:45,879 Epoch 27 Train Loss: 0.3105 Acc: 0.8909
+2026-04-21 00:48:47,542 Epoch 27 Test Loss: 0.4296 Acc: 0.8567
+2026-04-21 00:48:55,102 Epoch [28/100] Step [100/391] Loss: 0.4103
+2026-04-21 00:49:02,344 Epoch [28/100] Step [200/391] Loss: 0.3244
+2026-04-21 00:49:09,592 Epoch [28/100] Step [300/391] Loss: 0.3340
+2026-04-21 00:49:16,202 Epoch 28 Train Loss: 0.3065 Acc: 0.8942
+2026-04-21 00:49:17,872 Epoch 28 Test Loss: 0.4188 Acc: 0.8605
+2026-04-21 00:49:25,441 Epoch [29/100] Step [100/391] Loss: 0.1744
+2026-04-21 00:49:32,697 Epoch [29/100] Step [200/391] Loss: 0.3083
+2026-04-21 00:49:39,948 Epoch [29/100] Step [300/391] Loss: 0.2144
+2026-04-21 00:49:46,571 Epoch 29 Train Loss: 0.2976 Acc: 0.8961
+2026-04-21 00:49:48,233 Epoch 29 Test Loss: 0.3880 Acc: 0.8681
+2026-04-21 00:49:55,808 Epoch [30/100] Step [100/391] Loss: 0.3102
+2026-04-21 00:50:03,061 Epoch [30/100] Step [200/391] Loss: 0.3150
+2026-04-21 00:50:10,317 Epoch [30/100] Step [300/391] Loss: 0.3394
+2026-04-21 00:50:16,925 Epoch 30 Train Loss: 0.2877 Acc: 0.9001
+2026-04-21 00:50:18,589 Epoch 30 Test Loss: 0.4347 Acc: 0.8517
+2026-04-21 00:50:26,157 Epoch [31/100] Step [100/391] Loss: 0.3023
+2026-04-21 00:50:33,427 Epoch [31/100] Step [200/391] Loss: 0.2606
+2026-04-21 00:50:40,702 Epoch [31/100] Step [300/391] Loss: 0.3206
+2026-04-21 00:50:47,329 Epoch 31 Train Loss: 0.2854 Acc: 0.9020
+2026-04-21 00:50:48,977 Epoch 31 Test Loss: 0.3935 Acc: 0.8681
+2026-04-21 00:50:56,550 Epoch [32/100] Step [100/391] Loss: 0.2718
+2026-04-21 00:51:03,806 Epoch [32/100] Step [200/391] Loss: 0.2147
+2026-04-21 00:51:11,061 Epoch [32/100] Step [300/391] Loss: 0.2282
+2026-04-21 00:51:17,667 Epoch 32 Train Loss: 0.2801 Acc: 0.9038
+2026-04-21 00:51:19,327 Epoch 32 Test Loss: 0.3958 Acc: 0.8710
+2026-04-21 00:51:19,427 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:51:26,929 Epoch [33/100] Step [100/391] Loss: 0.2947
+2026-04-21 00:51:34,184 Epoch [33/100] Step [200/391] Loss: 0.3181
+2026-04-21 00:51:41,441 Epoch [33/100] Step [300/391] Loss: 0.2642
+2026-04-21 00:51:48,059 Epoch 33 Train Loss: 0.2754 Acc: 0.9042
+2026-04-21 00:51:49,712 Epoch 33 Test Loss: 0.3908 Acc: 0.8692
+2026-04-21 00:51:57,277 Epoch [34/100] Step [100/391] Loss: 0.2647
+2026-04-21 00:52:04,539 Epoch [34/100] Step [200/391] Loss: 0.1855
+2026-04-21 00:52:11,788 Epoch [34/100] Step [300/391] Loss: 0.3486
+2026-04-21 00:52:18,406 Epoch 34 Train Loss: 0.2663 Acc: 0.9068
+2026-04-21 00:52:20,055 Epoch 34 Test Loss: 0.3859 Acc: 0.8745
+2026-04-21 00:52:20,146 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:52:27,797 Epoch [35/100] Step [100/391] Loss: 0.2837
+2026-04-21 00:52:35,055 Epoch [35/100] Step [200/391] Loss: 0.2856
+2026-04-21 00:52:42,310 Epoch [35/100] Step [300/391] Loss: 0.2569
+2026-04-21 00:52:48,927 Epoch 35 Train Loss: 0.2566 Acc: 0.9111
+2026-04-21 00:52:50,584 Epoch 35 Test Loss: 0.3773 Acc: 0.8758
+2026-04-21 00:52:50,686 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:52:58,195 Epoch [36/100] Step [100/391] Loss: 0.2418
+2026-04-21 00:53:05,446 Epoch [36/100] Step [200/391] Loss: 0.2248
+2026-04-21 00:53:12,694 Epoch [36/100] Step [300/391] Loss: 0.2633
+2026-04-21 00:53:19,325 Epoch 36 Train Loss: 0.2526 Acc: 0.9120
+2026-04-21 00:53:20,987 Epoch 36 Test Loss: 0.3681 Acc: 0.8789
+2026-04-21 00:53:21,090 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd128_vith8_vitm512_conv64-128-256_fc512_bs128_optadam_lr0.001_schedcosine_drop0.1_seed42/best.pth
+2026-04-21 00:53:28,599 Epoch [37/100] Step [100/391] Loss: 0.1766
+2026-04-21 00:53:35,854 Epoch [37/100] Step [200/391] Loss: 0.2523
+2026-04-21 00:53:43,112 Epoch [37/100] Step [300/391] Loss: 0.2805
+2026-04-21 00:53:49,734 Epoch 37 Train Loss: 0.2509 Acc: 0.9121
+2026-04-21 00:53:51,392 Epoch 37 Test Loss: 0.3865 Acc: 0.8674
+2026-04-21 00:53:58,951 Epoch [38/100] Step [100/391] Loss: 0.1990
+2026-04-21 00:54:06,213 Epoch [38/100] Step [200/391] Loss: 0.2180
+2026-04-21 00:54:13,471 Epoch [38/100] Step [300/391] Loss: 0.2117
+2026-04-21 00:54:20,093 Epoch 38 Train Loss: 0.2416 Acc: 0.9151
+2026-04-21 00:54:21,740 Epoch 38 Test Loss: 0.3867 Acc: 0.8768
+2026-04-21 00:54:29,308 Epoch [39/100] Step [100/391] Loss: 0.2361
+2026-04-21 00:54:36,553 Epoch [39/100] Step [200/391] Loss: 0.3199
+2026-04-21 00:54:43,808 Epoch [39/100] Step [300/391] Loss: 0.2854
+2026-04-21 00:54:50,428 Epoch 39 Train Loss: 0.2356 Acc: 0.9164
+2026-04-21 00:54:52,090 Epoch 39 Test Loss: 0.4017 Acc: 0.8715
+2026-04-21 00:54:59,671 Epoch [40/100] Step [100/391] Loss: 0.3424
+2026-04-21 00:55:06,926 Epoch [40/100] Step [200/391] Loss: 0.2782
+2026-04-21 00:55:14,179 Epoch [40/100] Step [300/391] Loss: 0.1472
