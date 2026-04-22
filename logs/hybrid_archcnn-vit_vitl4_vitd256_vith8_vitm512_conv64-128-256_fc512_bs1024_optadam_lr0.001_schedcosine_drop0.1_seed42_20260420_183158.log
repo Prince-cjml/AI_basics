@@ -1,0 +1,9 @@
+2026-04-20 18:31:58,688 Logging to file: logs/hybrid_archcnn-vit_vitl4_vitd256_vith8_vitm512_conv64-128-256_fc512_bs1024_optadam_lr0.001_schedcosine_drop0.1_seed42_20260420_183158.log
+2026-04-20 18:31:58,688 Run config: {"amp": true, "arch": "cnn-vit", "batch_size": 1024, "conv_channels": [64, 128, 256], "conv_layers": 3, "deterministic": false, "disable_augment": false, "dropout": 0.1, "epochs": 1, "fc_layers": [512], "gamma": 0.1, "log_interval": 10, "lr": 0.001, "min_per_gpu_batch": 64, "model_name": "hybrid", "momentum": 0.9, "multi_gpu": "auto", "num_workers": 16, "optimizer": "adam", "pool_every": 2, "pool_type": "max", "resume": "", "scheduler": "cosine", "seed": 42, "step_size": 30, "use_wandb": false, "vit_dim": 256, "vit_dropout": 0.1, "vit_heads": 8, "vit_layers": 4, "vit_mlp_dim": 512, "weight_decay": 0.0005}
+2026-04-20 18:32:06,764 Enabled DataParallel on 8 GPUs
+2026-04-20 18:32:06,764 Primary device is cuda:0; model is replicated across cuda:0..cuda:7
+2026-04-20 18:32:06,764 Using device: cuda:0
+2026-04-20 18:32:06,765 Using optimizer: adam
+2026-04-20 18:32:06,765 Mixed precision (AMP): enabled
+2026-04-20 18:32:06,765 Starting training loop from epoch 1 to 1
+2026-04-20 18:32:06,766 Epoch 1 has 49 train steps (log interval: 10)

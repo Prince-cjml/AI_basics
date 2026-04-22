@@ -1,0 +1,9 @@
+2026-04-20 18:38:09,180 Logging to file: logs/cnn_archcnn_conv64-128-256_fc512_bs256_optadam_lr0.001_schedstep_s30_g0.1_drop0.5_seed42_20260420_183809.log
+2026-04-20 18:38:09,180 Run config: {"amp": true, "arch": "cnn", "batch_size": 256, "conv_channels": [64, 128, 256], "conv_layers": 3, "deterministic": false, "disable_augment": false, "dropout": 0.5, "epochs": 0, "fc_layers": [512], "gamma": 0.1, "local_rank": -1, "log_interval": 10, "lr": 0.001, "min_per_gpu_batch": 64, "model_name": "cnn", "momentum": 0.9, "multi_gpu": "ddp", "num_workers": 4, "optimizer": "adam", "pool_every": 2, "pool_type": "max", "resume": "", "scheduler": "step", "seed": 42, "step_size": 30, "use_wandb": false, "vit_dim": 256, "vit_dropout": 0.1, "vit_heads": 8, "vit_layers": 6, "vit_mlp_dim": 512, "weight_decay": 0.0005}
+2026-04-20 18:38:15,469 Enabled DistributedDataParallel on 2 GPUs (rank 0, local_rank 0)
+2026-04-20 18:38:15,469 Using device: cuda:0
+2026-04-20 18:38:15,469 Batch sizes: global=256 local=128 workers_per_rank=2
+2026-04-20 18:38:15,470 Using optimizer: adam
+2026-04-20 18:38:15,471 Mixed precision (AMP): enabled
+2026-04-20 18:38:15,471 Starting training loop from epoch 1 to 0
+2026-04-20 18:38:15,471 Training complete. Best test acc: 0.0000

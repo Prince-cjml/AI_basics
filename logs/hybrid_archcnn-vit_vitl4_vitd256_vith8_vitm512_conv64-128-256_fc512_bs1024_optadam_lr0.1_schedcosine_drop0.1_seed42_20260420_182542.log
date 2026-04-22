@@ -1,0 +1,6 @@
+2026-04-20 18:25:42,259 Logging to file: logs/hybrid_archcnn-vit_vitl4_vitd256_vith8_vitm512_conv64-128-256_fc512_bs1024_optadam_lr0.1_schedcosine_drop0.1_seed42_20260420_182542.log
+2026-04-20 18:25:42,259 Run config: {"arch": "cnn-vit", "batch_size": 1024, "conv_channels": [64, 128, 256], "conv_layers": 3, "deterministic": false, "disable_augment": false, "dropout": 0.1, "epochs": 1, "fc_layers": [512], "gamma": 0.1, "log_interval": 100, "lr": 0.1, "model_name": "hybrid", "momentum": 0.9, "num_workers": 16, "optimizer": "adam", "pool_every": 2, "pool_type": "max", "resume": "", "scheduler": "cosine", "seed": 42, "step_size": 30, "use_wandb": false, "vit_dim": 256, "vit_dropout": 0.1, "vit_heads": 8, "vit_layers": 4, "vit_mlp_dim": 512, "weight_decay": 0.0005}
+2026-04-20 18:25:49,458 Enabled DataParallel on 8 GPUs
+2026-04-20 18:25:49,458 Using device: cuda:0
+2026-04-20 18:25:49,459 Using optimizer: adam
+2026-04-20 18:25:49,459 Starting training loop from epoch 1 to 1

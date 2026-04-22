@@ -1,0 +1,14 @@
+2026-04-20 18:28:24,541 Logging to file: logs/hybrid_archcnn-vit_vitl4_vitd256_vith8_vitm512_conv64-128-256_fc512_bs1024_optadam_lr0.1_schedcosine_drop0.1_seed42_20260420_182824.log
+2026-04-20 18:28:24,541 Run config: {"arch": "cnn-vit", "batch_size": 1024, "conv_channels": [64, 128, 256], "conv_layers": 3, "deterministic": false, "disable_augment": false, "dropout": 0.1, "epochs": 1, "fc_layers": [512], "gamma": 0.1, "log_interval": 100, "lr": 0.1, "model_name": "hybrid", "momentum": 0.9, "num_workers": 16, "optimizer": "adam", "pool_every": 2, "pool_type": "max", "resume": "", "scheduler": "cosine", "seed": 42, "step_size": 30, "use_wandb": false, "vit_dim": 256, "vit_dropout": 0.1, "vit_heads": 8, "vit_layers": 4, "vit_mlp_dim": 512, "weight_decay": 0.0005}
+2026-04-20 18:28:32,066 Enabled DataParallel on 8 GPUs
+2026-04-20 18:28:32,066 Primary device is cuda:0; model is replicated across cuda:0..cuda:7
+2026-04-20 18:28:32,066 Using device: cuda:0
+2026-04-20 18:28:32,067 Using optimizer: adam
+2026-04-20 18:28:32,067 Starting training loop from epoch 1 to 1
+2026-04-20 18:28:32,067 Epoch 1 has 49 train steps (log interval: 100)
+2026-04-20 18:29:26,032 Epoch [1/1] Step [1/49] Loss: 2.4062
+2026-04-20 18:30:34,386 Epoch [1/1] Step [49/49] Loss: 2.3661
+2026-04-20 18:30:34,387 Epoch 1 Train Loss: 7.5368 Acc: 0.1023
+2026-04-20 18:31:26,741 Epoch 1 Test Loss: 2.4273 Acc: 0.1000
+2026-04-20 18:31:26,879 Saved new best checkpoint: model_ckpts/hybrid_archcnn-vit_vitl4_vitd256_vith8_vitm512_conv64-128-256_fc512_bs1024_optadam_lr0.1_schedcosine_drop0.1_seed42/best.pth
+2026-04-20 18:31:27,025 Training complete. Best test acc: 0.1000
