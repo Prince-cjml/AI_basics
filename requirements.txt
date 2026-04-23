@@ -1,7 +1,0 @@
--f https://download.pytorch.org/whl/cu130/torch_stable.html
-torch==2.11.0
-torchvision==0.26.0
-matplotlib==3.10.8
-
-# Weights & Biases for experiment visualization
-wandb==0.26.0

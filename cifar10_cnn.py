@@ -21,17 +21,12 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 
 
 def get_model_state_dict(model):
-    # For wrapped models, persist the underlying module weights.
     if isinstance(model, (nn.DataParallel, DDP)):
         return model.module.state_dict()
     return model.state_dict()
 
 
 def load_model_state_dict(model, state_dict, strict=True):
-    """
-    Load checkpoints saved from either single-GPU or DataParallel runs.
-    Handles key prefix conversion for "module." automatically.
-    """
     model_keys = list(model.state_dict().keys())
     ckpt_keys = list(state_dict.keys())
     if not model_keys or not ckpt_keys:
@@ -90,7 +85,6 @@ def parse_args():
                         help='multi-GPU mode: auto (use DDP when launched with torchrun), ddp (require DDP), off (single GPU)')
     parser.add_argument('--min-per-gpu-batch', type=int, default=64,
                         help='reserved for future auto policy tuning')
-    # Compat with torch.distributed.launch style arguments.
     parser.add_argument('--local-rank', type=int, default=-1)
     parser.add_argument('--local_rank', type=int, default=-1)
     parser.add_argument('--amp', dest='amp', action='store_true',
@@ -135,9 +129,13 @@ def parse_args():
 
 class Net(nn.Module):
     """
-    Build a configurable CNN from lists of conv channels and FC sizes.
-    Each conv block: Conv2d -> BatchNorm2d -> ReLU -> optional Pool
-    After convs we apply AdaptiveAvgPool2d((1,1)) then FC stack.
+    In this network implementation, each conv block consists
+    of Conv2d -> BatchNorm2d -> ReLU, with optional pooling 
+    after every N blocks as specified by `pool_every`. Then, 
+    Global average pooling is applied to get a fixed-size feature 
+    vector, which is fed to a stack of fully-connected layers 
+    (with optional dropout) before the final classifier. The 
+    architecture is flexible based on the provided arguments.
     """
     def __init__(self, in_channels=3, conv_channels=(64, 128, 256), pool_every=2, pool_type='max', fc_layers=(512,), dropout=0.5, num_classes=10):
         super().__init__()
@@ -148,7 +146,7 @@ class Net(nn.Module):
             layers = [nn.Conv2d(prev, ch, kernel_size=3, padding=1, bias=False),
                         nn.BatchNorm2d(ch),
                         nn.ReLU(inplace=True)]
-            # decide pooling insertion by position and pool_every
+
             if pool_every > 0 and ((i + 1) % pool_every == 0):
                 if pool_type == 'max':
                     layers.append(nn.MaxPool2d(kernel_size=2, stride=2))
@@ -157,10 +155,8 @@ class Net(nn.Module):
             self.conv_blocks.append(nn.Sequential(*layers))
             prev = ch
 
-        # global pooling to fixed-size feature
         self.global_pool = nn.AdaptiveAvgPool2d((1, 1))
 
-        # build fc stack
         fc_modules = []
         in_feat = prev * 1 * 1
         for idx, fch in enumerate(fc_layers):
